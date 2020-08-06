@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>JSON Practice </title></head>
+<body> 
+<div ></div>
+<script>
+const output = document.querySelector('div');
+//output.textContent = "Hello";
+const url = "https://www.facebook.com/";
+
+fetch(url)
+    .then(rep => rep.json())
+    .then( data => users(data));
+
+function users(out){
+    console.log(out);
+    //out.results.forEach( val => {
+      //  console.log(val.picture.thumbnail);
+        //output.innerHTML +=` <img src=${val.picture.thumbnail} height=200px //width=200px>`;
+    //})
+}
+
+</script>
+
+    
+    
+    
+    
+    
+</body>
+</html>

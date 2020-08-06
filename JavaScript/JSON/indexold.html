@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>JSON Practice </title></head>
+<body> 
+<div class="message"></div>
+<script>
+const message = document.querySelector('.message') 
+message.textContent = "Hello";
+const myObj = {"name":"Hussein Bitar",
+              "second":"hello World",
+              numbers:[15,20,20,[55,55]]};
+    console.log(myObj);
+message.textContent = myObj.name;
+const string_out = JSON.stringify(myObj);
+message.textContent += string_out;
+
+const myobj= {
+        "first Item":"nothing",
+        "Second Item":"Hello World"
+    };
+const var1 = JSON.stringify(myobj);
+//localStorage.setItem("test",var1);
+    
+const var2 = localStorage.getItem("test");
+console.log(var2);
+
+const var3 = JSON.parse(var2);
+console.log(var3);    
+    
+</script>
+
+    
+    
+    
+    
+    
+</body>
+</html>
