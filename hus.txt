@@ -1,0 +1,6 @@
+total 13
+drwxr-xr-x 1 husbi 197609   0 Aug  6 16:02 ./
+drwxr-xr-x 1 husbi 197609   0 Aug  6 15:58 ../
+drwxr-xr-x 1 husbi 197609   0 Aug  6 16:01 .git/
+-rw-r--r-- 1 husbi 197609 542 Oct 12  2018 .gitignore
+-rw-r--r-- 1 husbi 197609   0 Aug  6 16:02 hus.txt
